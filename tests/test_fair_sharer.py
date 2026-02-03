@@ -2,7 +2,7 @@
 """
 import pytest
 
-from fairsharer.my_module import hello
+from fairsharer.fair_sharer import hello
 
 
 def test_hello():
