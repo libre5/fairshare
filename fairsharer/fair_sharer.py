@@ -11,11 +11,7 @@ def fair_sharer(values, num_iterations, share=0.1):
 
     Args:
         values: 1D array of values (list or numpy array)
-        num_iterations: number of iterations (int)
-        share: fraction given to each neighbor (float)
-
-    Returns:
-        values_new: updated list (same type-like: list)
+        num_iterations: number of iterations
     """
 
     # Kopie, damit input nicht verändert wird
@@ -41,7 +37,4 @@ def fair_sharer(values, num_iterations, share=0.1):
         values_new[idx] -= 2 * amount
 
     return values_new
-
-print(fair_sharer([0, 1000, 800, 0], 1))
-print(fair_sharer([0, 1000, 800, 0], 2))
 
