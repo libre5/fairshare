@@ -1,8 +1,12 @@
 ## How to use fairsharer
 
-Short description of package
+Fairsharer is an algorithm in which the biggest value gives a share to the left and right neighbors with each iteration.
 
-The project setup is documented in [project_setup.md](project_setup.md). Feel free to remove this document (and/or the link to this document) if you don't need it.
+fair_sharer([List of values], Number of Iteration)
+
+Examples:
+        fair_sharer([0, 1000, 800, 0], 1) --> [100, 800, 900, 0]
+        fair_sharer([0, 1000, 800, 0], 2) --> [100, 890, 720, 90]
 
 ## Installation
 
