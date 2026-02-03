@@ -5,8 +5,10 @@ Fairsharer is an algorithm in which the biggest value gives a share to the left 
 fair_sharer([List of values], Number of Iteration)
 
 Examples:
-        fair_sharer([0, 1000, 800, 0], 1) --> [100, 800, 900, 0]
-        fair_sharer([0, 1000, 800, 0], 2) --> [100, 890, 720, 90]
+
+fair_sharer([0, 1000, 800, 0], 1) --> [100, 800, 900, 0]
+
+fair_sharer([0, 1000, 800, 0], 2) --> [100, 890, 720, 90]
 
 ## Installation
 
